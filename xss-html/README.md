@@ -6,11 +6,11 @@ Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious s
 
 ![unprotected](resources/xss_unprotected.png)
 
-Example:
+Example of injection script:
 ~~~js
 <script>alert(document.cookie)</script>
 ~~~~
 
-### Code is safe, now the input is encoded
+### [Code is safe, now the input is encoded](main.go#L32)
 
 ![encoded](resources/xss_encoded.png)
