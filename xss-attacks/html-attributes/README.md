@@ -22,7 +22,7 @@ func HelloHandler(w http.ResponseWriter, req *http.Request) {
 
 Example attack:
 ~~~js
-<script>alert(document.cookie)</script>
+javascript:alert(document.cookie)
 ~~~~
 
 # Let's fix it
