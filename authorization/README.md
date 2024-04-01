@@ -30,5 +30,6 @@ func (s *Server) HelloHandler(w http.ResponseWriter, req *http.Request) {
 }
 ~~~
 
-# Let's fix it
-1. [Add interservice auth](main.go#L24)
+### Let's fix it
+
+- [Add interservice auth](main.go#L24)
